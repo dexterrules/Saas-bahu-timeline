@@ -29,6 +29,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -64,14 +65,14 @@ Main components
 
 -------------------------------- */
 header {
-  height: 200px;
-  line-height: 200px;
+  height: 13em;
+  line-height: 13em;
   text-align: left;
   background: #ec2a2f;
 }
 header h1 {
   color: #000000;
-  font-size: 24px;
+  font-size: 1.5em;
   font-size: 3rem;
 }
 header h2 {
@@ -79,6 +80,14 @@ header h2 {
   font-size: 18px;
   font-size: 1.5rem;
 }
+
+header img {
+    max-width: 100%;
+    height: auto;
+	position: relative;
+	margin:1.5em 1.5em 1.5em 3em;
+}
+ 
 @media only screen and (min-width: 1170px) {
   header {
     padding-top: 50px;
@@ -86,7 +95,7 @@ header h2 {
     line-height: 50px;
   }
   header h1 {
-    font-size: 24px;
+    font-size: 1.5em;
 	padding-left: 100px;
     font-size: 3rem;
   }
@@ -380,8 +389,8 @@ footer ul {
 }
 
 footer li img {
-  width: 32px;
-  height: 32px;
+  width: 2.5em;
+  height: 2.5em;
 }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
