@@ -138,6 +138,32 @@ header img {
   }
 }
 
+@media only screen and (min-resolution: 192dpi) {
+  header {
+    padding-top: 3em;
+    height: 25em;
+    line-height: 2em;
+  }
+  header h1 {
+    font-size: 1.5em;
+	text-align: center;
+	clear: both;
+	
+  }
+   header h2 {
+    font-size: 0.75em;
+	text-align: center;
+	font-size: 0.75rem;
+	clear: both;
+  }
+  header img {
+   max-width: 100%;
+   display: block;
+   height: auto;
+   margin: 0 auto;
+  }
+}
+
 #cd-timeline {
   position: relative;
   padding: 2em 0;
