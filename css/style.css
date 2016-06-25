@@ -141,7 +141,7 @@ header img {
 @media only screen and (min-resolution: 192dpi) {
   header {
     padding-top: 3em;
-    height: 45em;
+    height: 42em;
     line-height: 5.5em;
   }
   header h1 {
